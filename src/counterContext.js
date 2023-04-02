@@ -9,7 +9,7 @@ const counterContext = createContext()
 
 
 const CounterStateContext = (props) => {
-    const [count, setcount] = useState(0);
+    const [count, setCount] = useState(0);
 
     return (
         <div id="counter-context">
